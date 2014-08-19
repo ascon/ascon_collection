@@ -4,3 +4,6 @@
 [submodule "c"]
 	path = c
 	url = git://github.com/ascon/crypto_aead.git
+[submodule "java"]
+	path = java
+	url = git://github.com/ascon/javaascon.git
