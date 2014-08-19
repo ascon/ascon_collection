@@ -7,3 +7,6 @@
 [submodule "java"]
 	path = java
 	url = git://github.com/ascon/javaascon.git
+[submodule "hardware"]
+	path = hardware
+	url = git://github.com/IAIK/ascon_hardware
