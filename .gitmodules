@@ -11,5 +11,5 @@
 	url = git://github.com/IAIK/ascon_hardware
 	branch = master
 [submodule "ascon-c"]
-	path = ascon-c
+	path = c
 	url = git://github.com/ascon/ascon-c.git
