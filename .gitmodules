@@ -10,3 +10,6 @@
 	path = hardware
 	url = git://github.com/IAIK/ascon_hardware
 	branch = master
+[submodule "ascon-c"]
+	path = ascon-c
+	url = git://github.com/ascon/ascon-c.git
