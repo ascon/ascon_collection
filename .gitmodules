@@ -4,7 +4,7 @@
 	branch = master
 [submodule "c"]
 	path = c
-	url = git://github.com/ascon/crypto_aead.git
+	url = git://github.com/ascon/ascon-c.git
 	branch = master
 [submodule "java"]
 	path = java
