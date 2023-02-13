@@ -1,15 +1,15 @@
 [submodule "python"]
 	path = python
-	url = git://github.com/meichlseder/ascon-py.git
+	url = ../../meichlseder/ascon-py.git
 	branch = master
 [submodule "java"]
 	path = java
-	url = git://github.com/ascon/javaascon.git
+	url = ../javaascon.git
 	branch = master
 [submodule "hardware"]
 	path = hardware
-	url = git://github.com/IAIK/ascon_hardware
+	url = ../../IAIK/ascon_hardware
 	branch = master
 [submodule "ascon-c"]
 	path = c
-	url = git://github.com/ascon/ascon-c.git
+	url = ../ascon-c.git
