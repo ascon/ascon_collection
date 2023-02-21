@@ -13,3 +13,4 @@
 [submodule "ascon-c"]
 	path = c
 	url = ../ascon-c.git
+	branch = main
