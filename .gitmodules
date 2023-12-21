@@ -17,3 +17,9 @@
 [submodule "verilog"]
 	path = verilog
 	url = git@github.com:rprimas/ascon-verilog.git
+[submodule "php"]
+	path = php
+	url = https://github.com/brainfoolong/php-ascon
+[submodule "javascript_typescript"]
+	path = javascript_typescript
+	url = https://github.com/brainfoolong/js-ascon
