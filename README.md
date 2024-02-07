@@ -34,8 +34,8 @@ Software Implementations
 
 ### C/C++
 
-| Description | URL | Author | Comments and supported variants |
-|-------------|-----|--------|---------------------------------|
+| Description | Code | Author | Comments and supported variants |
+|-------------|------|--------|---------------------------------|
 | :star: **C reference implementation** | https://github.com/ascon/ascon-c | Ascon Team | Features both the reference implementation and optimized implementations (64-bit) of Ascon-128 and Ascon-128a. For a detailed overview of the performance of Ascon-128 and Ascon-128a on different CPUs see [eBAEAD](https://bench.cr.yp.to/ebaead.html). |
 | **C** collection with benchmarks | https://lab.las3.de/gitlab/lwc/candidates/tree/master/ascon/Implementations | Rhys Weatherley et al. | Collection with implementations by multiple authors, including benchmarking results (AEAD and hash variants) |
 | **C** with Init-Update-Final interface | https://github.com/TheMatjaz/LibAscon | Matjaž Guštin | C11 library wrapping the reference C implementation (all AEAD and hash variants), including Init-Update-Final processing and variable tag length |
@@ -45,11 +45,12 @@ Software Implementations
 
 ### Other Languages
 
-| Description | URL | Author | Comments and supported variants |
-|-------------|-----|--------|---------------------------------|
+| Description | Code | Author | Comments and supported variants |
+|-------------|------|--------|---------------------------------|
 | :star: **Python reference implementation** | https://github.com/meichlseder/pyascon | Ascon Team | Reference implementation of all AEAD and hash family members. Note: The [pypi package](https://pypi.org/project/ascon/) is not maintained by us. |
 | **Cython/Python** | https://github.com/xHappenZ/cyascon | Oliver Popa | Python wrapper with C/Cython implementation (all AEAD and hash variants), with optional init-update-final interface.
 | **Java** | https://github.com/ascon/javaascon | Hannes Groß | Java implementation of Ascon-128 and Ascon-128a. |
+| **Java for JCE** | - | SIC | IAIK-LW Provider for the Java Cryptography Extension (JCE). Links: [commercial toolkit](https://jce.iaik.tugraz.at/products/core-crypto-toolkits/ascon-lightweight-crypto-toolkit/), [free evaluation version](https://jce.iaik.tugraz.at/product/iaik-lightweight-provider-evaluation-version/) |
 | **Rust** | https://github.com/RustCrypto/hashes/tree/master/ascon-hash, https://github.com/RustCrypto/AEADs/tree/master/ascon-aead | Sebastian Ramacher | Rust implementation, as part of the RustCrypto library, of all AEAD and hash variants. Links: [git (hash)](https://github.com/RustCrypto/hashes/tree/master/ascon-hash), [git (AEAD)](https://github.com/RustCrypto/AEADs/tree/master/ascon-aead), [crate (hash)](https://crates.io/crates/ascon-hash), [crate (AEAD)](https://crates.io/crates/ascon-aead) |
 | **Jasmin** | https://github.com/jerlacher/ascon-jasmin | Johannes Erlacher | Jasmin implementation with a Rust interface (Ascon-128 and Ascon-128a AEAD variants) |
 | **Go** | https://ascon.iaik.tugraz.at/www.github.com/cloudflare/circl | Armando Faz | Go implementation as part of the CIRCL library (all AEAD variants) |
