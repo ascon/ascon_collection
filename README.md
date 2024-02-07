@@ -1,31 +1,23 @@
 Implementations of the Ascon Family
 ===================================
 
-This is a collection of implementations of the Ascon family.
+This is a collection of hardware and software implementations of Ascon.
 Reference implementations are included as submodules, while this file lists additional implementations in various languages.
 
 :warning: All repositories implement the submitted candidate design. The final NIST standard is not yet published and may be incompatible with these implementations due to minor changes.
 
 :warning: Note that linked implementations may become outdated or incorrect and should not be used for productive environments without caution.
 
-Ascon
------
 
-Ascon is a family of [authenticated encryption](https://en.wikipedia.org/wiki/Authenticated_encryption) (AEAD) and [hashing](https://en.wikipedia.org/wiki/Cryptographic_hash_function) algorithms designed to be lightweight and easy to implement, even with added countermeasures against side-channel attacks.
+About Ascon
+-----------
+
+[Ascon](https://ascon.iaik.tugraz.at) is a family of [authenticated encryption](https://en.wikipedia.org/wiki/Authenticated_encryption) (AEAD) and [hashing](https://en.wikipedia.org/wiki/Cryptographic_hash_function) algorithms designed to be lightweight and easy to implement, even with added countermeasures against side-channel attacks.
 It was designed by a team of cryptographers from Graz University of Technology, Infineon Technologies, and Intel Labs: Christoph Dobraunig, Maria Eichlseder, Florian Mendel, and Martin Schläffer.
 
 Ascon has been selected as the standard for lightweight cryptography in the [NIST Lightweight Cryptography competition (2019–2023)](https://csrc.nist.gov/projects/lightweight-cryptography) and as the primary choice for lightweight authenticated encryption in the final portfolio of the [CAESAR competition (2014–2019)](https://competitions.cr.yp.to/caesar-submissions.html).
 
-Find the specification and more information here:
-
-https://ascon.iaik.tugraz.at/
-
-
-Algorithms
-----------
-
-The Ascon family provides multiple different schemes.
-Not all linked implementations implement all algorithms; most include at least the Ascon v1.2 family members submitted as recommended candidates to the NIST LWC competition.
+The Ascon family provides multiple different schemes; not all linked implementations implement all algorithms:
 
   * Authenticated encryption (`Ascon-128`, `Ascon-128a`, `Ascon-80pq`)
   
@@ -33,6 +25,8 @@ Not all linked implementations implement all algorithms; most include at least t
 
   * Authentication algorithms including Message Authentication Codes (MACs) with fixed 128-bit tag size (`Ascon-Mac`, `Ascon-Maca`)
   and PseudoRandom Functions (PRFs) with variable output lengths (`Ascon-Prf`, `Ascon-Prfa`), as well as a variant for short messages of up to 128 bits (`Ascon-PrfShort`)
+
+Find the specification of Ascon v1.2 as submitted to NIST LWC and more information here: https://ascon.iaik.tugraz.at/
 
 
 Software Implementations
