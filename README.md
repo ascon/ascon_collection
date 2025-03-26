@@ -48,16 +48,16 @@ Software Implementations
 | Description | Code | Author | Ascon version | Comments and supported variants |
 |-------------|------|--------|---------------|---------------------------------|
 | :star: **Python reference implementation** | https://github.com/meichlseder/pyascon | Ascon Team | NIST SP 800-232 draft | Reference implementation of all AEAD and hash family members. Note: The [pypi package](https://pypi.org/project/ascon/) is not maintained by us. |
-| **Cython/Python** | https://github.com/xHappenZ/cyascon | Oliver Popa | LWC submission | Python wrapper with C/Cython implementation (all AEAD and hash variants), with optional init-update-final interface. |
-| **Java** | https://github.com/ascon/javaascon | Hannes Groß | CAESAR submission | Java implementation of Ascon-128 and Ascon-128a. |
-| **Java for JCE** | - | SIC | LWC submission | IAIK-LW Provider for the Java Cryptography Extension (JCE). Links: [commercial toolkit](https://jce.iaik.tugraz.at/products/core-crypto-toolkits/ascon-lightweight-crypto-toolkit/), [free evaluation version](https://jce.iaik.tugraz.at/product/iaik-lightweight-provider-evaluation-version/) |
 | **Rust** | https://github.com/RustCrypto/hashes/tree/master/ascon-hash, https://github.com/RustCrypto/AEADs/tree/master/ascon-aead | Sebastian Ramacher | NIST SP 800-232 draft | Rust implementation, as part of the RustCrypto library, of all AEAD and hash variants. Links: [git (hash)](https://github.com/RustCrypto/hashes/tree/master/ascon-hash), [git (AEAD)](https://github.com/RustCrypto/AEADs/tree/master/ascon-aead), [crate (hash)](https://crates.io/crates/ascon-hash), [crate (AEAD)](https://crates.io/crates/ascon-aead) |
+| **TypeScript/JavaScript** | https://github.com/brainfoolong/js-ascon | Roland Eigelsreiter | NIST SP 800-232 draft | JavaScript/TypeScript implementation (all Ascon family members). Link: [npm](https://www.npmjs.com/package/js-ascon) |
+| **PHP** | https://github.com/brainfoolong/php-ascon | Roland Eigelsreiter | NIST SP 800-232 draft | PHP 8+ implementation (all Ascon family members) |
+| **Cython/Python** | https://github.com/xHappenZ/cyascon | Oliver Popa | LWC submission | Python wrapper with C/Cython implementation (all AEAD and hash variants), with optional init-update-final interface. |
+| **Java for JCE** | - | SIC | LWC submission | IAIK-LW Provider for the Java Cryptography Extension (JCE). Links: [commercial toolkit](https://jce.iaik.tugraz.at/products/core-crypto-toolkits/ascon-lightweight-crypto-toolkit/), [free evaluation version](https://jce.iaik.tugraz.at/product/iaik-lightweight-provider-evaluation-version/) |
 | **Jasmin** | https://github.com/jerlacher/ascon-jasmin | Johannes Erlacher | LWC submission | Jasmin implementation with a Rust interface (Ascon-128 and Ascon-128a AEAD variants) |
 | **Go** | https://github.com/cloudflare/circl | Armando Faz | LWC submission | Go implementation as part of the CIRCL library (all AEAD variants) |
 | **TypeScript** | https://github.com/Simolation/ascon-js | Simon Osterlehner | LWC submission | Fully typed TypeScript/JavaScript library (all AEAD and hash variants). Link: [npm](https://www.npmjs.com/package/ascon-js) |
-| **TypeScript/JavaScript** | https://github.com/brainfoolong/js-ascon | Roland Eigelsreiter | NIST SP 800-232 draft | JavaScript/TypeScript implementation (all Ascon family members). Link: [npm](https://www.npmjs.com/package/js-ascon) |
-| **PHP** | https://github.com/brainfoolong/php-ascon | Roland Eigelsreiter | NIST SP 800-232 draft | PHP 8+ implementation (all Ascon family members) |
 | **Zig** | https://github.com/ziglang/zig/blob/master/lib/std/crypto/ascon.zig | Frank Denis | LWC submission | Zig implementation as part of the standard library (permutation only) |
+| **Java** | https://github.com/ascon/javaascon | Hannes Groß | CAESAR submission | Java implementation of Ascon-128 and Ascon-128a. |
 
 
 Hardware Implementations
