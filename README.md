@@ -79,6 +79,16 @@ Hardware Implementations
 :construction: to be completed
 
 
+Protected Implementations
+-------------------------
+
+| Description | Code | Author | Ascon version | Comments and supported variants |
+|-------------|------|--------|---------------|---------------------------------|
+| **RISC-V** (RV32IM assembly) | [l.mainka/side-channel-secure-ascon](https://uva-hva.gitlab.host/l.mainka/side-channel-secure-ascon) | Linus Mainka, Kostas Papagiannopoulos | LWC submission | Protected RISC-V implementation of Ascon-128 using masking and shuffling ([CASCADE 2025 paper preprint](https://eprint.iacr.org/2025/564)). |
+
+:construction: to be completed
+
+
 Co-Processor
 ------------
 
