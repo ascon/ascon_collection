@@ -50,11 +50,11 @@ Software Implementations
 | Description | Code | Author | Ascon version | Comments and supported variants |
 |-------------|------|--------|---------------|---------------------------------|
 | :star: **C reference implementation** | [ascon/ascon-c](https://github.com/ascon/ascon-c) | Ascon Team | NIST SP 800-232 | Features both the reference implementation and optimized implementations (64-bit) of all AEAD and hash family members. For a detailed overview of the AEAD performance on different CPUs see [eBAEAD](https://bench.cr.yp.to/ebaead.html). |
+| **C** with Init-Update-Final interface | [platsec/sp800232-rit](https://gitlab.com/platsec/sp800232-rit) | Billy Brumley | NIST SP 800-232 | Cleanroom C implementation, including Init-Update-Final processing |
 | **C** collection with benchmarks | [lab.las3.de/lwc/ascon](https://lab.las3.de/gitlab/lwc/candidates/tree/master/ascon/Implementations) | Rhys Weatherley et al. | LWC submission | Collection with implementations by multiple authors, including benchmarking results (AEAD and hash variants) |
 | **C** with Init-Update-Final interface | [TheMatjaz/LibAscon](https://github.com/TheMatjaz/LibAscon) | Matjaž Guštin | LWC submission | C11 library wrapping the reference C implementation (all AEAD and hash variants), including Init-Update-Final processing and variable tag length |
 | **C/assembly** optimized for 32-bit architectures (ESP32/Xtensa, RISC-V) | [in LAS3 collection](https://lab.las3.de/gitlab/lwc/candidates/commit/9c6d9e4a880476fa74f439263cc2f4fc6f78940a) | Ferdinand Bachmann | LWC submission | C wrapper with assembly optimized for Tensilica Xtensa and 32-bit RISC-V (all AEAD and hash variants) |
 | **C** optimized for RISC-V | [ulmer-a/lightweight_aead](https://github.com/ulmer-a/lightweight_aead) | Alexander Ulmer | LWC submission | RISC-V implementation of Ascon-128 and Ascon-128a |
-| **C** with Init-Update-Final interface | [platsec/sp800232-rit](https://gitlab.com/platsec/sp800232-rit) | Billy Brumley | NIST SP 800-232 | Cleanroom C implementation, including Init-Update-Final processing |
 
 
 ### Other Languages
