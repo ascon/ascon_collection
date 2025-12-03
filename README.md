@@ -54,6 +54,7 @@ Software Implementations
 | **C** with Init-Update-Final interface | [TheMatjaz/LibAscon](https://github.com/TheMatjaz/LibAscon) | Matjaž Guštin | LWC submission | C11 library wrapping the reference C implementation (all AEAD and hash variants), including Init-Update-Final processing and variable tag length |
 | **C/assembly** optimized for 32-bit architectures (ESP32/Xtensa, RISC-V) | [in LAS3 collection](https://lab.las3.de/gitlab/lwc/candidates/commit/9c6d9e4a880476fa74f439263cc2f4fc6f78940a) | Ferdinand Bachmann | LWC submission | C wrapper with assembly optimized for Tensilica Xtensa and 32-bit RISC-V (all AEAD and hash variants) |
 | **C** optimized for RISC-V | [ulmer-a/lightweight_aead](https://github.com/ulmer-a/lightweight_aead) | Alexander Ulmer | LWC submission | RISC-V implementation of Ascon-128 and Ascon-128a |
+| **C** with Init-Update-Final interface | [platsec/sp800232-rit](https://gitlab.com/platsec/sp800232-rit) | Billy Brumley | NIST SP 800-232 | Cleanroom C implementation, including Init-Update-Final processing |
 
 
 ### Other Languages
