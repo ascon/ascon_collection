@@ -4,7 +4,7 @@ Implementations of the Ascon Family
 This is a collection of hardware and software implementations of Ascon.
 Reference implementations are included as submodules, while this file lists additional implementations in various languages.
 
-:warning: Some repositories implement the published draft of [NIST SP 800-232 (initial public draft)](https://csrc.nist.gov/pubs/sp/800/232/ipd), while others implement the submitted candidate design, which are not compatible.
+:warning: Some repositories implement the published standard [NIST SP 800-232](https://csrc.nist.gov/pubs/sp/800/232), while others implement the submitted candidate design, which are not compatible.
 Linked implementations may become outdated or incorrect and should not be used for productive environments without caution.
 
 
@@ -16,7 +16,7 @@ It was designed by a team of cryptographers from Graz University of Technology, 
 
 Ascon has been selected as the standard for lightweight cryptography in the [NIST Lightweight Cryptography competition (2019–2023)](https://csrc.nist.gov/projects/lightweight-cryptography) and as the primary choice for lightweight authenticated encryption in the final portfolio of the [CAESAR competition (2014–2019)](https://competitions.cr.yp.to/caesar-submissions.html).
 
-**The most recent version** of Ascon is specified in [NIST SP 800-232 (initial public draft)](https://csrc.nist.gov/pubs/sp/800/232/ipd) and includes the following designs:
+**The standardized and most recent version** of Ascon is specified in [NIST SP 800-232](https://csrc.nist.gov/pubs/sp/800/232) and includes the following designs:
 
   * Authenticated Encryption with Associated Data (AEAD):
 
