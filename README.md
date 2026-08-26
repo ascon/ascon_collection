@@ -66,6 +66,7 @@ Software Implementations
 | **TypeScript/JavaScript** | [brainfoolong/js-ascon](https://github.com/brainfoolong/js-ascon) | Roland Eigelsreiter | NIST SP 800-232  | JavaScript/TypeScript implementation (all Ascon family members). Link: [npm](https://www.npmjs.com/package/js-ascon) |
 | **PHP** | [brainfoolong/php-ascon](https://github.com/brainfoolong/php-ascon) | Roland Eigelsreiter | NIST SP 800-232  | PHP 8+ implementation (all Ascon family members) |
 | **Web interface (JavaScript)** | [motarekk.github.io](https://motarekk.github.io/) | Mohamed Tarek | NIST SP 800-232  | `playascon` is an interactive website that encrypts/hashes any user-provided data using a JavaScript implementation (all Ascon family members) |
+| **OCaml** | [thevilledev/ocaml-ascon](https://github.com/thevilledev/ocaml-ascon) | Ville Vesilehto | NIST SP 800-232 | Pure OCaml implementation of Ascon-AEAD128, Ascon-Hash256, Ascon-XOF128, and Ascon-CXOF128, with no C or Unix dependencies. |
 | **Cython/Python** | [xHappenZ/cyascon](https://github.com/xHappenZ/cyascon) | Oliver Popa | LWC submission | Python wrapper with C/Cython implementation (all AEAD and hash variants), with optional init-update-final interface. |
 | **Java for JCE** | - | SIC | LWC submission | IAIK-LW Provider for the Java Cryptography Extension (JCE). Links: [commercial toolkit](https://jce.isec.tugraz.at/products/core-crypto-toolkits/ascon-lightweight-crypto-toolkit/), [free evaluation version](https://jce.isec.tugraz.at/product/iaik-lightweight-provider-evaluation-version/) |
 | **Jasmin** | [jerlacher/ascon-jasmin](https://github.com/jerlacher/ascon-jasmin) | Johannes Erlacher | LWC submission | Jasmin implementation with a Rust interface (Ascon-128 and Ascon-128a AEAD variants) |
@@ -73,7 +74,6 @@ Software Implementations
 | **TypeScript** | [Simolation/ascon-js](https://github.com/Simolation/ascon-js) | Simon Osterlehner | LWC submission | Fully typed TypeScript/JavaScript library (all AEAD and hash variants). Link: [npm](https://www.npmjs.com/package/ascon-js) |
 | **Zig** | [ziglang/ascon.zig](https://github.com/ziglang/zig/blob/master/lib/std/crypto/ascon.zig) | Frank Denis | LWC submission | Zig implementation as part of the standard library (permutation only) |
 | **Java** | [ascon/javaascon](https://github.com/ascon/javaascon) | Hannes Groß | CAESAR submission | Java implementation of Ascon-128 and Ascon-128a. |
-| **OCaml** | [thevilledev/ocaml-ascon](https://github.com/thevilledev/ocaml-ascon) | Ville Vesilehto | NIST SP 800-232 | Pure OCaml implementation of Ascon-AEAD128, Ascon-Hash256, Ascon-XOF128, and Ascon-CXOF128, with no C or Unix dependencies. |
 
 
 Hardware Implementations
