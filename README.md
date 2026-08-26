@@ -73,6 +73,7 @@ Software Implementations
 | **TypeScript** | [Simolation/ascon-js](https://github.com/Simolation/ascon-js) | Simon Osterlehner | LWC submission | Fully typed TypeScript/JavaScript library (all AEAD and hash variants). Link: [npm](https://www.npmjs.com/package/ascon-js) |
 | **Zig** | [ziglang/ascon.zig](https://github.com/ziglang/zig/blob/master/lib/std/crypto/ascon.zig) | Frank Denis | LWC submission | Zig implementation as part of the standard library (permutation only) |
 | **Java** | [ascon/javaascon](https://github.com/ascon/javaascon) | Hannes Groß | CAESAR submission | Java implementation of Ascon-128 and Ascon-128a. |
+| **OCaml** | [thevilledev/ocaml-ascon](https://github.com/thevilledev/ocaml-ascon) | Ville Vesilehto | NIST SP 800-232 | Pure OCaml implementation of Ascon-AEAD128, Ascon-Hash256, Ascon-XOF128, and Ascon-CXOF128, with no C or Unix dependencies. |
 
 
 Hardware Implementations
